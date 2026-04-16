@@ -4,7 +4,7 @@ import { AboutPage, ProductsPage } from './components/Pages';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/odisho">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
